@@ -3,11 +3,8 @@ body {
     margin-right: auto;
     width: 95%;
     text-align: center;
-    font-family: Futura, sans-serif;
-}
-
-h1.header-name {
-    font-family: Garamond, serif;
+    font-family: "Fauna One", sans-serif;
+    color: #333237;
 }
 
 .custom-container::after { /* transparent background image */
@@ -15,9 +12,18 @@ h1.header-name {
     position: absolute;
     left: 0;
     top: 0;
-    opacity: 0.3;
+    opacity: 0.25;
     z-index: -1;
-    background: url(tree-elements-background.png);
+    background: url(value-iteration-background.png);
     width: 100%;
     height: 100%;
+}
+
+h1.header-name {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+div.description {
+    margin-bottom: 1em;
 }
