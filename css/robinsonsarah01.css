@@ -62,3 +62,21 @@ div.project::before {
     display: block;
     padding-top: 100%;
 }
+
+span.extra-desc {
+    padding-top: 1em;
+    display: inline-block;
+}
+
+@media (max-width: 1000px){
+    span.extra-desc {
+        font-size: small;
+        padding-top: .5em;
+    }
+}
+
+@media (max-width: 750px){
+    span.extra-desc{
+        display: none;
+    }
+}
