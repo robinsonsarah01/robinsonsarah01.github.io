@@ -34,8 +34,7 @@ div.description {
 /* code for responsive circles from http://littledice.me/2014/04/16/responsive-circles-with-css/ */
 
 div.project {
-    margin-left: 2em;
-    margin-bottom: 2em;
+    margin: 1em;
     border-radius: 50%;
     width: 30%;
     min-width: 170px;
