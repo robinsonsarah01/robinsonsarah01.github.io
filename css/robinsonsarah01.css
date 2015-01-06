@@ -34,13 +34,16 @@ div.description {
 /* code for responsive circles from http://littledice.me/2014/04/16/responsive-circles-with-css/ */
 
 div.project {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2em;
+    margin-bottom: 2em;
     border-radius: 50%;
     width: 30%;
+    min-width: 170px;
+    max-width: 425px;
     position: relative;
     border: 1px solid black;
     display: inline-block;
+    background-color: white; /* For when there's no background image */
 }
 
 div.project-inner {
@@ -51,6 +54,8 @@ div.project-inner {
     right: 0;
     text-align: center;
     padding-top: 15%;
+    padding-left: 14%;
+    padding-right: 14%;
 }
 
 div.project::before {
