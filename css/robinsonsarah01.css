@@ -2,6 +2,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
+    min-width: 200px;
     text-align: center;
     font-family: "Fauna One", sans-serif;
     color: #333237;
@@ -21,9 +22,39 @@ body {
 
 h1.header-name {
     font-family: "Playfair Display", serif;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 250%;
+    color: #4D4A58;
 }
 
 div.description {
     margin-bottom: 1em;
+}
+
+/* code for responsive circles from http://littledice.me/2014/04/16/responsive-circles-with-css/ */
+
+div.project {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 30%;
+    position: relative;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div.project-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 15%;
+}
+
+div.project::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
