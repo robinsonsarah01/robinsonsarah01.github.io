@@ -1,0 +1,36 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    min-width: 200px;
+    text-align: center;
+    font-family: "Fauna One", sans-serif;
+    color: #333237;
+}
+
+a {
+    color: #280C91;
+}
+
+a:hover {
+    color: #4D1EFF;
+}
+
+.custom-container::after { /* transparent background image */
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.2;
+    z-index: -1;
+    background: url(value-iteration-background.png);
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 250%;
+    color: #4D4A58;
+}

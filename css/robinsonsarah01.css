@@ -39,6 +39,10 @@ div.description {
     margin-bottom: 1em;
 }
 
+div.projects {
+    width: 100%;
+}
+
 /* code for responsive circles from http://littledice.me/2014/04/16/responsive-circles-with-css/ */
 
 div.project {
