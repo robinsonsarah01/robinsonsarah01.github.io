@@ -28,11 +28,18 @@ a:hover {
     height: 100%;
 }
 
-h1.header-name {
+h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    font-size: 250%;
     color: #4D4A58;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 175%;
 }
 
 div.description {
@@ -40,7 +47,7 @@ div.description {
 }
 
 div.projects {
-    width: 100%;
+    /* width: 100%; */
 }
 
 /* code for responsive circles from http://littledice.me/2014/04/16/responsive-circles-with-css/ */

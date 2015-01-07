@@ -23,14 +23,51 @@ a:hover {
     top: 0;
     opacity: 0.2;
     z-index: -1;
-    background: url(value-iteration-background.png);
+    background: url(../css/value-iteration-background.png); /* /css/etc would work on the site */
     width: 100%;
     height: 100%;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    font-size: 250%;
     color: #4D4A58;
 }
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 175%;
+}
+
+.education div {
+    margin: .5em 0;
+}
+
+/* .education span.desc {
+    vertical-align: middle;
+    display: inline-block;
+} */
+
+.education img {
+    width: 10%;
+    min-width: 80px;
+}
+
+/* div#mhc {
+    text-align: left;
+}
+
+div#stuyvesant {
+    text-align: right;
+}
+
+#mhc img {
+    float: left;
+}
+
+#stuyvesant  img{
+    float: right;
+} */
