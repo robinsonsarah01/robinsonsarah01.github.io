@@ -8,12 +8,20 @@ body {
     color: #333237;
 }
 
+a {
+    color: #280C91;
+}
+
+a:hover {
+    color: #4D1EFF;
+}
+
 .custom-container::after { /* transparent background image */
     content: "";
     position: absolute;
     left: 0;
     top: 0;
-    opacity: 0.25;
+    opacity: 0.2;
     z-index: -1;
     background: url(value-iteration-background.png);
     width: 100%;
@@ -56,6 +64,7 @@ div.project-inner {
     padding-left: 14%;
     padding-right: 14%;
     z-index: 1;
+    color: #313036;
 }
 
 div.project::before {
