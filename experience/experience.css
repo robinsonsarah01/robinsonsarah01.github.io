@@ -40,9 +40,14 @@ h1 {
 
 h2 {
     font-size: 175%;
+    margin-bottom: 0;
 }
 
-.education div, .tech-skills div {
+h3 {
+    margin: 0;
+}
+
+.education div, .tech-skills div div {
     margin: .5em 0;
 }
 
