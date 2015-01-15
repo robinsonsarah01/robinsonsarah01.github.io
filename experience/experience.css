@@ -42,7 +42,7 @@ h2 {
     font-size: 175%;
 }
 
-.education div {
+.education div, .tech-skills div {
     margin: .5em 0;
 }
 
