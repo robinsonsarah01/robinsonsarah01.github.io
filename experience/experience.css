@@ -44,6 +44,7 @@ h2 {
 }
 
 h3 {
+    font-size: 125%;
     margin: 0;
 }
 
@@ -76,3 +77,16 @@ div#stuyvesant {
 #stuyvesant  img{
     float: right;
 } */
+
+div#tech-content { /* columns for the technical skills*/
+    /* guide to responsive columns at http://css-tricks.com/guide-responsive-friendly-css-columns/ */
+    max-width: 900px;
+    margin: auto;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 330px;
+    -moz-column-width: 330px;
+    column-width: 330px;
+    
+}
