@@ -90,3 +90,17 @@ div#tech-content { /* columns for the technical skills*/
     column-width: 330px;
     
 }
+
+div.background div.job { /* pseudo-3-column display for "jobs" */
+    width: 30%;
+    display: inline-block;
+    border: 1px dotted black;
+    vertical-align: top;
+    margin: .5em;
+    min-width: 125px;
+}
+
+div.job span.desc {
+    display: inline-block;
+    margin-top: .5em;
+}
