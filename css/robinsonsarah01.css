@@ -84,19 +84,31 @@ div.project::before {
     padding-top: 100%;
 }
 
+@media (max-width: 1130px) {
+    div.project {
+        width: 45%;
+    }
+}
+
+@media (max-width: 742px) {
+    div.project {
+        width: 50%;
+    }
+}
+
 span.extra-desc {
     padding-top: 1em;
     display: inline-block;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 530px){
     span.extra-desc {
         font-size: small;
         padding-top: .5em;
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 470px){
     span.extra-desc{
         display: none;
     }
