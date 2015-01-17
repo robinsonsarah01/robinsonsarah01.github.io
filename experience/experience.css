@@ -97,10 +97,25 @@ div.background div.job { /* pseudo-3-column display for "jobs" */
     border: 1px dotted black;
     vertical-align: top;
     margin: .5em;
-    min-width: 125px;
+    min-width: 180px;
 }
 
 div.job span.desc {
     display: inline-block;
     margin-top: .5em;
+}
+
+@media (max-width: 682px) {
+    div.background div.job {
+        width: 40%;
+    }
+}
+
+@media (max-width: 439px) {
+    div.background div.job {
+        width: 70%;
+        border: none;
+        border-bottom: 1px dotted black;
+        padding-bottom: 1em;
+    }
 }
