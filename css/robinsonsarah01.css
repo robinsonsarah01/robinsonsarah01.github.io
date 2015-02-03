@@ -23,7 +23,7 @@ a:hover {
     top: 0;
     opacity: 0.2;
     z-index: -1;
-    background: url(value-iteration-background.png);
+    background: url(value-iteration-background-gray.png);
     width: 100%;
     height: 100%;
 }
