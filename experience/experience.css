@@ -12,8 +12,8 @@ a {
     color: #280C91;
 }
 
-a:hover {
-    color: #4D1EFF;
+a:hover, a:active {
+    color: #3A0EDF;
 }
 
 .custom-container::after { /* transparent background image */
@@ -21,7 +21,7 @@ a:hover {
     position: absolute;
     left: 0;
     top: 0;
-    opacity: 0.2;
+    opacity: 0.12;
     z-index: -1;
     background: url(../css/value-iteration-background.png); /* /css/etc would work on the site */
     width: 100%;
