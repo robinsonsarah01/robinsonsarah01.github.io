@@ -25,7 +25,7 @@ a:hover, a:active {
     z-index: -1;
     background: url(value-iteration-background-gray.png);
     width: 100%;
-    height: 100%;
+    height: 175%; /* otherwise background stops repeating */
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -114,7 +114,7 @@ span.extra-desc {
     }
 }
 
-/* Project backgrounds - use pixlr to make them transparent but not let the page background bleed through.*/
+/* Project backgrounds - use pixlr to make them transparent/light but not let the page background bleed through.*/
 
 div.project.routeplanner::after {
     content: "";
@@ -153,4 +153,17 @@ div.project.tetris::after {
     border-radius: 50%;
     background-color: white;
     background: url(java-tetris-transparent.png);
+}
+
+div.project.ihart::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*width: 30%;*/
+    border-radius: 50%;
+    background-color: white;
+    background: url(ihart-server.png);
 }
