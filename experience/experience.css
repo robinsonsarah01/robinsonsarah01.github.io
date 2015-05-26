@@ -91,6 +91,10 @@ div#tech-content { /* columns for the technical skills*/
     
 }
 
+div.job {
+    padding: 0 .5em;
+}
+
 div.background div.job { /* pseudo-3-column display for "jobs" */
     width: 30%;
     display: inline-block;
