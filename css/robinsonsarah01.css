@@ -1,195 +1,23 @@
+html {
+    /* TODO: change to /img/...png before merging. */
+    background: url(../img/value-iteration-background-gray-lightened.png);
+}
+
 body {
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 95%; */
-    min-width: 200px;
-    text-align: center;
     font-family: "Fauna One", sans-serif;
-    color: #333237;
 }
 
-a {
-    color: #280C91;
+a , .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #43a047; /* green darken-1 */
 }
 
-a:hover, a:active {
-    color: #3A0EDF;
+a:hover, a:active ,
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover,
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):active {
+    color: #0d47a1; /* blue darken-4 */
 }
 
-.custom-container::after { /* transparent background image */
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0.18;
-    z-index: -1;
-    background: url(value-iteration-background-gray.png);
-    width: 100%;
-    height: 175%; /* otherwise background stops repeating */
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Playfair Display", serif;
-    font-weight: 400;
-    color: #4D4A58;
-}
-
-h1 {
-    font-size: 250%;
-}
-
-h2 {
-    font-size: 175%;
-}
-
-div.description {
-    margin: 0 1em 1em 1em;
-}
-
-div.projects {
-    /* width: 100%; */
-}
-
-/* code for responsive circles from http://littledice.me/2014/04/16/responsive-circles-with-css/ */
-
-div.project {
-    margin: 1em;
-    border-radius: 50%;
-    width: 30%;
-    min-width: 170px;
-    max-width: 425px;
-    position: relative;
-    border: 1px solid black;
-    display: inline-block;
-    /*background-color: white;  For when there's no background image */
-}
-
-div.project-inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    padding-top: 15%;
-    padding-left: 14%;
-    padding-right: 14%;
-    z-index: 1;
-    color: #313036;
-}
-
-div.project::before {
-    content: "";
-    display: block;
-    padding-top: 100%;
-}
-
-@media (max-width: 1130px) {
-    div.project {
-        width: 45%;
-    }
-}
-
-@media (max-width: 742px) {
-    div.project {
-        width: 50%;
-    }
-}
-
-span.extra-desc {
-    padding-top: 1em;
-    display: inline-block;
-}
-
-@media (max-width: 530px){
-    span.extra-desc {
-        font-size: small;
-        padding-top: .5em;
-    }
-}
-
-@media (max-width: 470px){
-    span.extra-desc{
-        display: none;
-    }
-}
-
-/* Project backgrounds - use pixlr to make them transparent/light but not let the page background bleed through.*/
-
-div.project.routeplanner::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    /*width: 30%;*/
-    border-radius: 50%;
-    background-color: white;
-    background: url(routeplanner-dataset-transparent.png);
-}
-
-div.project.backsafe::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    /*width: 30%;*/
-    border-radius: 50%;
-    background-color: white;
-    background: url(backsafe-home-transparent.png);
-}
-
-div.project.tetris::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    /*width: 30%;*/
-    border-radius: 50%;
-    background-color: white;
-    background: url(java-tetris-transparent.png);
-}
-
-div.project.ihart::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    /*width: 30%;*/
-    border-radius: 50%;
-    background-color: white;
-    background: url(ihart-server.png);
-}
-
-div.project.ihart-2::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    /*width: 30%;*/
-    border-radius: 50%;
-    background-color: white;
-    background: url(ihart-repo-transparent.png);
-}
-
-div.project.politeness::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    /*width: 30%;*/
-    border-radius: 50%;
-    background-color: white;
-    background: url(politeness-gauge-transparent.png);
+h1 , h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+    color: #0d47a1;
 }
