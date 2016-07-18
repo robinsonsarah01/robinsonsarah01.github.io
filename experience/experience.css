@@ -1,125 +1,25 @@
+html {
+    /* TODO: change to /img/...png before merging. */
+    background: url(../img/value-iteration-background-gray-lightened.png);
+}
+
 body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    min-width: 200px;
-    text-align: center;
     font-family: "Fauna One", sans-serif;
-    color: #333237;
 }
 
 a {
-    color: #280C91;
+    color: #43a047; /* green darken-1 */
 }
 
 a:hover, a:active {
-    color: #3A0EDF;
+    color: #0d47a1; /* blue darken-4 */
 }
 
-.custom-container::after { /* transparent background image */
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0.12;
-    z-index: -1;
-    background: url(../css/value-iteration-background.png); /* /css/etc would work on the site */
-    width: 100%;
-    height: 100%;
+h1 , h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+    color: #0d47a1;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Playfair Display", serif;
-    font-weight: 400;
-    color: #4D4A58;
-}
-
-h1 {
-    font-size: 250%;
-}
-
-h2 {
-    font-size: 175%;
-    margin-bottom: 0;
-}
-
-h3 {
-    font-size: 125%;
-    margin: 0;
-}
-
-.education div, .tech-skills div div {
-    margin: .5em 0;
-}
-
-/* .education span.desc {
-    vertical-align: middle;
-    display: inline-block;
-} */
-
-.education img {
-    width: 10%;
-    min-width: 80px;
-}
-
-/* div#mhc {
-    text-align: left;
-}
-
-div#stuyvesant {
-    text-align: right;
-}
-
-#mhc img {
-    float: left;
-}
-
-#stuyvesant  img{
-    float: right;
-} */
-
-div#tech-content { /* columns for the technical skills*/
-    /* guide to responsive columns at http://css-tricks.com/guide-responsive-friendly-css-columns/ */
-    max-width: 900px;
-    margin: auto;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-width: 330px;
-    -moz-column-width: 330px;
-    column-width: 330px;
-    
-}
-
-div.job {
-    padding: 0 .5em;
-}
-
-div.background div.job { /* pseudo-3-column display for "jobs" */
-    width: 30%;
-    display: inline-block;
-    border: 1px dotted black;
-    vertical-align: top;
-    margin: .5em;
-    min-width: 180px;
-}
-
-div.job span.desc {
-    display: inline-block;
-    margin-top: .5em;
-}
-
-@media (max-width: 682px) {
-    div.background div.job {
-        width: 40%;
-    }
-}
-
-@media (max-width: 439px) {
-    div.background div.job {
-        width: 70%;
-        border: none;
-        border-bottom: 1px dotted black;
-        padding-bottom: 1em;
-    }
+.chip {
+    margin: 4px auto;
 }
