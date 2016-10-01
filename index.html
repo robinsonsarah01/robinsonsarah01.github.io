@@ -1,70 +1,178 @@
 ﻿<!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-        <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Fauna+One' rel='stylesheet' type='text/css' charset="utf-8">
-        <link href="css/robinsonsarah01.css" type="text/css" charset="utf-8" rel="stylesheet" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Fauna+One|Roboto+Slab" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link href="css/robinsonsarah01.css" type="text/css" charset="utf-8" rel="stylesheet">
     </head>
-        <body>
-        <div class="custom-container">
-            <h1 class="header-name">Sarah Robinson</h1>
-            <div class="description">
-                Computer science student. Software developer.
-                <br/>
+    <body class="blue-grey-text text-darken-3">
+        <div class="container">
+            <h1>Sarah Robinson</h1>
+
+            <div class="flow-text">
+                Computer science student and software developer.
+                <br />
                 I'm currently a student web programmer at <a href="https://www.mtholyoke.edu" target="_blank">Mount Holyoke College</a>.
-                <br/>
-                Feel free to take a look at my <a href="/experience">experience</a>, or find me on <a href="https://github.com/robinsonsarah01">GitHub</a>.
+                Feel free to take a look at my <a href="#experience">experience</a>, or find me on <a href="https://github.com/robinsonsarah01">GitHub</a>.
             </div>
-            <div class="projects">
-                <h2>Recent Projects</h2>
-                <div class="project ihart-2">
-                    <div class="project-inner">
-                        <em>iHart</em>, Spring 2016. On <a href="https://github.com/ihart-mhc/ihart" target="_blank">GitHub</a>.
-                        <span class="extra-desc">Solo independent study. Creates interactions between users and programs via webcams.</span>
+
+            <h2>Projects</h2>
+
+            <div class="projects row">
+                <div class="col s12 m6 l6">
+                    <div id="ihart-16" class="card">
+                        <div class="card-image">
+                            <img src="img/ihart-server.png" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">iHart</span>
+                            <p>Independent study, Spring 2016. Creates interactions between users and programs via webcams.
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/ihart-mhc/ihart" target="_blank">GitHub</a>
+                        </div>
                     </div>
                 </div>
-                <div class="project politeness">
-                    <div class="project-inner">
-                        <em>Politeness Gauge</em> for Natural Language Processing, Spring 2015.
-                        On <a href="https://github.com/robinsonsarah01/politeness-gauge" target="_blank">GitHub</a>.
-                        <span class="extra-desc">A tool for measuring how polite and professional your emails are.</span>
+
+                <div class="col s12 m6 l6">
+                    <div id="politeness" class="card">
+                        <div class="card-image">
+                            <img src="img/politeness-gauge.png" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Politeness Gauge</span>
+                            <p>For Natural Language Processing, Spring 2015. A tool for measuring how polite and professional your emails are.
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/robinsonsarah01/politeness-gauge" target="_blank">GitHub</a>
+                        </div>
                     </div>
                 </div>
-                <div class="project routeplanner">
-                    <div class="project-inner">
-                        <em>Routeplanner</em> for Artificial Intelligence, Fall 2014.
-                        On <a href="https://github.com/robinsonsarah01/routeplanner" target="_blank">GitHub</a>.
-                        <span class="extra-desc">The routeplanner project is a custom wayfinder for motorcyclists based on road curvature.</span>
+
+                <div class="col s12 m6 l6">
+                    <div id="routeplanner" class="card">
+                        <div class="card-image">
+                            <img src="img/routeplanner-dataset.png" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Routeplanner</span>
+                            <p> For Artificial Intelligence, Fall 2014. A custom wayfinder for motorcyclists based on road curvature.
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/robinsonsarah01/routeplanner" target="_blank">GitHub</a>
+                        </div>
                     </div>
                 </div>
-                <div class="project backsafe">
-                    <div class="project-inner">
-                        <em>BackSafe</em> at Hack The North, September 2014.
-                        On <a href="http://challengepost.com/software/backsafe-oggza" target="_blank">ChallengePost</a>.
-                        <span class="extra-desc">BackSafe is a Facebook app that keeps the user safe through text messages and emails.</span>
+
+                <div class="col s12 m6 l6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/backsafe-home.png" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">BackSafe</span>
+                            <p> At Hack The North, September 2014. A Facebook app that keeps the user safe through text messages and emails.
+                        </div>
+                        <div class="card-action">
+                            <a href="http://devpost.com/software/backsafe-oggza" target="_blank">DevPost</a>
+                        </div>
                     </div>
                 </div>
-                <div class="project ihart">
-                    <div class="project-inner">
-                        <em>iHart</em>, Fall 2014. On <a href="https://github.com/ihart-mhc/ihart" target="_blank">GitHub</a>.
-                        <span class="extra-desc">Group independent study. Creates interactions between users and programs via webcams.</span>
-                    </div>
-                </div>
-                <!--div class="project tetris">
-                    <div class="project-inner">
-                        <em>Tetris</em>, Fall 2013. On <a href="https://github.com/robinsonsarah01/java-tetris" target="_blank">GitHub</a>.
-                        <span class="extra-desc">Tetris, implemented in Java. Contains both a command-line text-only version and a GUI version.</span>
-                    </div>
-                </div-->
-                <!--
-                <div class="project project-name">
-                    <div class="project-inner">
-                        <em>Project name</em>. On <a href="" target="_blank">website</a>.
-                        <span class="extra-desc">Extended description.</span>
-                    </div>
-                </div>
-                -->
             </div>
+
+            <h2 id="experience">Experience</h2>
+            <div class="flow-text">My full resume, with contact information, is also available <a href="Sarah_Robinson_Resume.pdf">as a PDF</a>.</div>
+
+            <h3>Education</h3>
+            <ul class="collection">
+                <li class="collection-item avatar">
+                    <img src="img/mhc-logo.png" alt="Mount Holyoke College logo" class="circle" />
+                    <span class="title">Mount Holyoke College</span>
+                    <p>Bachelor's degree in Computer Science, minor in Mathematics.
+                    <br>Expected May 2017.
+                </li>
+                <li class="collection-item avatar">
+                    <img src="img/stuy-logo.png" alt="Stuyvesant High School logo" class="circle" />
+                    <span class="title">Stuyvesant High School</span>
+                    <p>Advanced Regents High School Diploma
+                    <br>Received June 2013.
+                </li>
+            </ul>
+
+            <h3>Skills</h3>
+            <ul class="collection">
+                <li class="collection-item">Languages
+                    <span class="chip z-depth-1">
+                        <img src="img/java-logo.jpg"/>
+                        Java
+                    </span>
+                    <span class="chip z-depth-1">
+                        <img src="img/python-logo.png" />
+                        Python
+                    </span>
+                    <span class="chip z-depth-1">
+                        <img src="img/javascript-logo.png" />
+                        JavaScript
+                    </span>
+                    <span class="chip z-depth-1">
+                        <img src="img/php-logo.png" />
+                        PHP
+                    </span>
+                    <span class="chip z-depth-1">
+                        <img src="img/html-logo.png" />
+                        HTML
+                    </span>
+                    <span class="chip z-depth-1">
+                        <img src="img/css-logo.png" />
+                        CSS
+                    </span>
+                    <span class="chip z-depth-1">
+                        <img src="img/sql-logo.png" />
+                        SQL
+                    </span>
+                </li>
+                <li class="collection-item">Operating systems
+                    <span class="chip z-depth-1">Windows</span>
+                    <span class="chip z-depth-1">OS X</span>
+                    <span class="chip z-depth-1">Ubuntu (Linux)</span>
+                </li>
+                <li class="collection-item">Editors</span>
+                    <span class="chip z-depth-1">Sublime</span>
+                    <span class="chip z-depth-1">Eclipse</span>
+                    <span class="chip z-depth-1">Emacs</span>
+                </li>
+            </ul>
+
+            <h3>Previous Work</h3>
+            <ul class="collapsible z-depth-0" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header active waves-effect">Software Engineering Intern, Google, Summer 2016.</div>
+                    <div class="collapsible-body"><p>Streamlined the quality analysis workflow for a particular ad format by adding new functionality to a testing tool. JavaScript, Python, Google App Engine.</p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect"><a href="https://www.mtholyoke.edu/media/google-funds-new-computer-science-initiative">MaGE Program</a>, Mt. Holyoke College, Fall 2015 and Fall 2016.</div>
+                    <div class="collapsible-body"><p>Mentored students in introductory courses as part of an initiative to increase retention of women in computer science programs.</p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect">Software Engineering Intern, Google, Summer 2015.</div>
+                    <div class="collapsible-body"><p>Worked with a Google Maps team to add a feature to StreetView for Google Maps for Android. Java.</p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect">Student Web Programmer, Mt. Holyoke College Web Team, June 2014 - ongoing.</div>
+                    <div class="collapsible-body"><p>Develop, support, and integrate web applications for the college website. PHP, <a href="https://www.drupal.org/" target="_blank">Drupal CMS</a>, HTML, CSS, JavaScript.</p></div>
+                </li>
+                <li>
+                    <div class="collapsible-header waves-effect">Computer Science TA, Mt. Holyoke College, Spring 2014.</div>
+                    <div class="collapsible-body"><p>Reviewed concepts such as basic data structures and debugging strategies. Java.</p></div>
+                </li>
+            </ul>
         </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

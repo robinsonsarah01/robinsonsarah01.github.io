@@ -1,4 +1,4 @@
 [robinsonsarah01.github.io](http://robinsonsarah01.github.io/)
 =========================
 
-Personal website. Static, at least for the moment.
+Simple personal website. Redesigned in 2016 using [MaterializeCSS](http://materializecss.com/).
