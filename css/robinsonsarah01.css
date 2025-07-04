@@ -6,23 +6,17 @@ body {
     font-family: "Fauna One", sans-serif;
 }
 
-a , .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+a {
     color: #43a047; /* green darken-1 */
 }
 
-a:hover, a:active ,
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover,
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):active {
+a:hover, a:active {
     color: #0d47a1; /* blue darken-4 */
 }
 
 h1 , h2, h3, h4, h5, h6 {
     font-family: "Roboto Slab", serif;
     color: #0d47a1;
-}
-
-.projects .card {
-    /* cards will be faded in */
 }
 
 .chip {
